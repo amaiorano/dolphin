@@ -1,0 +1,9 @@
+# Do the usual thing by default
+* text=auto
+
+# For source code, we always want LF line endings for clang-format
+*.cpp text eol=lf
+*.c text eol=lf
+*.h text eol=lf
+*.inc text eol=lf
+*.inl text eol=lf
